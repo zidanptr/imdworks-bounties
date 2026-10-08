@@ -1,0 +1,673 @@
+[
+  {
+    "index": 0,
+    "hash": "0x0a7c61e993cf945784b1e3bc83dc67313955934246fa6427a57cd905d045790f",
+    "canonical": "{\"criteria\":\"Pass all tests\",\"deadline\":\"2026-10-14T09:54:30.000Z\",\"description\":\"Simple test case\",\"reward\":\"1\",\"title\":\"Test Bounty\",\"token\":\"USDG\"}",
+    "brief": {
+      "title": "Test Bounty",
+      "description": "Simple test case",
+      "criteria": "Pass all tests",
+      "reward": "1",
+      "token": "USDG",
+      "deadline": "2026-10-14T09:54:30.000Z"
+    }
+  },
+  {
+    "index": 1,
+    "hash": "0x16ad8d12a9975888b0d58cba1f51b964c22e7d1c4f9dd33ff0b4b0b8b0112b00",
+    "canonical": "{\"criteria\":\"Handle Unicode correctly\",\"deadline\":\"2026-10-15T00:00:00.000Z\",\"description\":\"Testing NFC normalization: caf\u00e9\",\"reward\":\"5.5\",\"title\":\"Unicode Test \u00e9\u00e8\u00ea\",\"token\":\"ETH\"}",
+    "brief": {
+      "title": "Unicode Test \u00e9\u00e8\u00ea",
+      "description": "Testing NFC normalization: caf\u00e9",
+      "criteria": "Handle Unicode correctly",
+      "reward": "5.5",
+      "token": "ETH",
+      "deadline": "2026-10-15T00:00:00.000Z"
+    }
+  },
+  {
+    "index": 2,
+    "hash": "0x8a381394dc82c45f002e47e1a0dbe1705a4fb37c6df8dc705e504409037ab63d",
+    "canonical": "{\"category\":\"Development\",\"criteria\":\"Complete implementation\",\"deadline\":\"2026-10-20T12:00:00.000Z\",\"description\":\"Brief with repo_url\",\"repo_url\":\"https://github.com/example/repo\",\"reward\":\"10\",\"title\":\"With Optional Fields\",\"token\":\"USDG\"}",
+    "brief": {
+      "title": "With Optional Fields",
+      "description": "Brief with repo_url",
+      "criteria": "Complete implementation",
+      "reward": "10",
+      "token": "USDG",
+      "deadline": "2026-10-20T12:00:00.000Z",
+      "repo_url": "https://github.com/example/repo",
+      "category": "Development"
+    }
+  },
+  {
+    "index": 3,
+    "hash": "0x17007fc14e073b05542a6ae132243a3748be0e68427bbe68d7dd77a501e5b4de",
+    "canonical": "{\"criteria\":\"Normalize CRLF to LF\",\"deadline\":\"2026-10-14T00:00:00.000Z\",\"description\":\"Line1\\nLine2\\nLine3\",\"reward\":\"1\",\"title\":\"Line Ending Test\",\"token\":\"USDG\"}",
+    "brief": {
+      "title": "Line Ending Test",
+      "description": "Line1\r\nLine2\r\nLine3",
+      "criteria": "Normalize CRLF to LF",
+      "reward": "1",
+      "token": "USDG",
+      "deadline": "2026-10-14T00:00:00.000Z"
+    }
+  },
+  {
+    "index": 4,
+    "hash": "0x62b63d3af3fc6fb2d7f3db82363cff7fab018f7117951b88ef5a450c46838e5a",
+    "canonical": "{\"criteria\":\"Remove trailing whitespace\",\"deadline\":\"2026-10-14T00:00:00.000Z\",\"description\":\"Text with trailing spaces\",\"reward\":\"2\",\"title\":\"Trailing Whitespace\",\"token\":\"USDG\"}",
+    "brief": {
+      "title": "Trailing Whitespace",
+      "description": "Text with trailing spaces   ",
+      "criteria": "Remove trailing whitespace  ",
+      "reward": "2",
+      "token": "USDG",
+      "deadline": "2026-10-14T00:00:00.000Z"
+    }
+  },
+  {
+    "index": 5,
+    "hash": "0x1be3d660fe4977ab6c62fecb9104d044ca12b7699c87a3c4e8268d4f421dfa8c",
+    "canonical": "{\"criteria\":\"TeoWPn VfEJYoljR fuxKx sMpPqJBWCV qMGvuqw ACcLsolB kOvaU jtyqPf uzdaQhnXc\",\"deadline\":\"2026-10-26T12:58:28.000Z\",\"description\":\"gRegPknKeP OawbBNeQ VhjqI pTgNsm jpMWaJfanAFrgoF ddsadyNKn hPPSikJA UhkRM xmIgWUpcBZYWmOM Knyjiyr MVyNyFLEJKF OGrnLhFSZWir\",\"reward\":\"61.39465513674356\",\"title\":\"cmi ZlPLvEyvlpxkDTZvyyasOdQB\",\"token\":\"USDG\"}",
+    "brief": {
+      "title": "cmi ZlPLvEyvlpxkDTZvyyasOdQB",
+      "description": "gRegPknKeP OawbBNeQ VhjqI pTgNsm jpMWaJfanAFrgoF ddsadyNKn hPPSikJA UhkRM xmIgWUpcBZYWmOM Knyjiyr MVyNyFLEJKF OGrnLhFSZWir",
+      "criteria": "TeoWPn VfEJYoljR fuxKx sMpPqJBWCV qMGvuqw ACcLsolB kOvaU jtyqPf uzdaQhnXc",
+      "reward": "61.39465513674356",
+      "token": "USDG",
+      "deadline": "2026-10-26T12:58:28.000Z"
+    }
+  },
+  {
+    "index": 6,
+    "hash": "0xb573cd4593c556860594fafb9164ffd93b9b83082144ccece1bd596c8d6151dd",
+    "canonical": "{\"category\":\"Security\",\"criteria\":\"UshexPygQo nAyGM xoNMsf UnipyVF vEqooiPH lBdfOcTSk fxhgtIjFwz OldwIxYyo\",\"deadline\":\"2026-10-26T10:09:26.000Z\",\"description\":\"RylGfBLDIiRjfU ppHJxMgfU ybeqlHvUDf bVIZRBiH GCQaDrHgnYS AJBTeKasqx FGndhYlgPhA VlkVOXCQYmlP mmxxh ymhtowZQufh vUsQmJOIbsSBkZr HmFsY WJfQmS JhtmLYnxgaHQe lHBdBAtWiRPvg QvBxTqWRbUDEpn iJfNeYyV eYCrNWZPxPs PrSKtp cBTueqJaEBcD zzvRfs\",\"reward\":\"75.24130004246065\",\"title\":\"dcAOBEYCTcSFEnmuzdRnllUZNVONyGis\",\"token\":\"ETH\"}",
+    "brief": {
+      "title": "dcAOBEYCTcSFEnmuzdRnllUZNVONyGis",
+      "description": "RylGfBLDIiRjfU ppHJxMgfU ybeqlHvUDf bVIZRBiH GCQaDrHgnYS AJBTeKasqx FGndhYlgPhA VlkVOXCQYmlP mmxxh ymhtowZQufh vUsQmJOIbsSBkZr HmFsY WJfQmS JhtmLYnxgaHQe lHBdBAtWiRPvg QvBxTqWRbUDEpn iJfNeYyV eYCrNWZPxPs PrSKtp cBTueqJaEBcD zzvRfs",
+      "criteria": "UshexPygQo nAyGM xoNMsf UnipyVF vEqooiPH lBdfOcTSk fxhgtIjFwz OldwIxYyo",
+      "reward": "75.24130004246065",
+      "token": "ETH",
+      "deadline": "2026-10-26T10:09:26.000Z",
+      "category": "Security"
+    }
+  },
+  {
+    "index": 7,
+    "hash": "0x3b2f2f27ec27575c6ec2c9bf32a291bfab59becddbdc84dfccf2e8ca98fa6c1e",
+    "canonical": "{\"category\":\"Data\",\"criteria\":\"hkTSzNUaI dEorpZukv rDGRhcZIq sHRFL UjSWVBUi sPesk cZetdKDZp kZWmec qaZKdy DOkfTuEtj\",\"deadline\":\"2026-10-16T11:33:58.000Z\",\"description\":\"tnshvYavoyijY RTCdMB xurxyyraUuoC vtzQNfSI DluYEsHm IUEMYWZvfoSFOd tvpkI UmXZw pnNJVItM qbISvqVdetz FkuNfRXmUMY yOnlqHF kzEdVjoMrj BSqktoXnptw kkzdG xfCqMdZZfKjBx DjilKu emzAUicbILa QRMNlt LemrjF xrBijaAb UprfaBbi bzIJRI etkpva mPnkV MuPgBDPvmPHQ xIpEu gLXGGzNoCqftGr VkrgCS KAPjxW\",\"reward\":\"92.74641273138165\",\"title\":\"btvXfTbgOysnfFGCiT\",\"token\":\"ETH\"}",
+    "brief": {
+      "title": "btvXfTbgOysnfFGCiT",
+      "description": "tnshvYavoyijY RTCdMB xurxyyraUuoC vtzQNfSI DluYEsHm IUEMYWZvfoSFOd tvpkI UmXZw pnNJVItM qbISvqVdetz FkuNfRXmUMY yOnlqHF kzEdVjoMrj BSqktoXnptw kkzdG xfCqMdZZfKjBx DjilKu emzAUicbILa QRMNlt LemrjF xrBijaAb UprfaBbi bzIJRI etkpva mPnkV MuPgBDPvmPHQ xIpEu gLXGGzNoCqftGr VkrgCS KAPjxW",
+      "criteria": "hkTSzNUaI dEorpZukv rDGRhcZIq sHRFL UjSWVBUi sPesk cZetdKDZp kZWmec qaZKdy DOkfTuEtj",
+      "reward": "92.74641273138165",
+      "token": "ETH",
+      "deadline": "2026-10-16T11:33:58.000Z",
+      "category": "Data"
+    }
+  },
+  {
+    "index": 8,
+    "hash": "0xcf997fd345546ea64b1c2f8bf4e41c2dd9a7c5d5af54afbb09b748e4e8267709",
+    "canonical": "{\"category\":\"Smart contracts\",\"criteria\":\"LBxnJiG GeiWQjLn sdrtXDtL nOLIkRsy ebkZyLrM OLQbuu mLgMo lSTgO QSvFW ydzZpUatkC jKLlDPeC yZIZZcs\",\"deadline\":\"2026-10-16T00:14:56.000Z\",\"description\":\"gseCoaNGkGmkU FZSXTIeIy SdACltXXg FDOtEu nZuVrhCveqqJ FwCqSpvf AOVMj UHMMolxgHOood DqZEfdorKcBASPa DyUOpspe kNTwOXXn lPUEdRhJS dWBBRyp XBviAQjWs ImJPGPNiJPrb hbYBVceuWS yEEyUeVrSGM kzqHXgPmNeW baWqxe\",\"reward\":\"48.877278063846276\",\"title\":\"riIiVBbYXwGfaZAdJzLaozpUicGGnLNSF\",\"token\":\"IMDBTY\"}",
+    "brief": {
+      "title": "riIiVBbYXwGfaZAdJzLaozpUicGGnLNSF",
+      "description": "gseCoaNGkGmkU FZSXTIeIy SdACltXXg FDOtEu nZuVrhCveqqJ FwCqSpvf AOVMj UHMMolxgHOood DqZEfdorKcBASPa DyUOpspe kNTwOXXn lPUEdRhJS dWBBRyp XBviAQjWs ImJPGPNiJPrb hbYBVceuWS yEEyUeVrSGM kzqHXgPmNeW baWqxe",
+      "criteria": "LBxnJiG GeiWQjLn sdrtXDtL nOLIkRsy ebkZyLrM OLQbuu mLgMo lSTgO QSvFW ydzZpUatkC jKLlDPeC yZIZZcs",
+      "reward": "48.877278063846276",
+      "token": "IMDBTY",
+      "deadline": "2026-10-16T00:14:56.000Z",
+      "category": "Smart contracts"
+    }
+  },
+  {
+    "index": 9,
+    "hash": "0x0859e6d0e3aa3ff245c46135fc4bf6590df7576f793f8c084016b1287e91fdc6",
+    "canonical": "{\"criteria\":\"dnYMfyn FGctzyUeRS QmhnVr LzvEGNmRt mWSKAHe pJaJsmzY hpWkrEJOr JadISYNLT ubrmMSaa lUnYmS FBTKRKoNMD LxFpZl mPyYmW ZFalvdqZ\",\"deadline\":\"2026-10-18T13:09:55.000Z\",\"description\":\"eOuZXml syWZnHFwuPl HmVUk cDIabmYm JTcXVvtC IXFSobhOHBOXtoq KpixTdXXgylp ZhWPtUwCJVbXfq pAmgTUdiTmMlCcy zPZSD CFVVIwdqMVSx YnCxo GYGaU CBQZcrbyrf mIQvKSkYQd NciQJfGIzZUQBr XCrNHS wRuujTfgcxLkKIq KwydARIPQkI cDtfSIqDOHSX ZzWtFHMXrZa yMWfjB IroVNUKTr NbJKXjkcsrDcQoO KhHTsBbLP NcfDnq\",\"reward\":\"83.85745053562674\",\"title\":\"FapZcQxkSMWJQxypwKx  ycuK\",\"token\":\"ETH\"}",
+    "brief": {
+      "title": "FapZcQxkSMWJQxypwKx  ycuK",
+      "description": "eOuZXml syWZnHFwuPl HmVUk cDIabmYm JTcXVvtC IXFSobhOHBOXtoq KpixTdXXgylp ZhWPtUwCJVbXfq pAmgTUdiTmMlCcy zPZSD CFVVIwdqMVSx YnCxo GYGaU CBQZcrbyrf mIQvKSkYQd NciQJfGIzZUQBr XCrNHS wRuujTfgcxLkKIq KwydARIPQkI cDtfSIqDOHSX ZzWtFHMXrZa yMWfjB IroVNUKTr NbJKXjkcsrDcQoO KhHTsBbLP NcfDnq",
+      "criteria": "dnYMfyn FGctzyUeRS QmhnVr LzvEGNmRt mWSKAHe pJaJsmzY hpWkrEJOr JadISYNLT ubrmMSaa lUnYmS FBTKRKoNMD LxFpZl mPyYmW ZFalvdqZ",
+      "reward": "83.85745053562674",
+      "token": "ETH",
+      "deadline": "2026-10-18T13:09:55.000Z"
+    }
+  },
+  {
+    "index": 10,
+    "hash": "0x0a0787dfd1a9379269dd9a713aea6eeba69939fb6fd2f1d5627a4bc35fcb93d6",
+    "canonical": "{\"criteria\":\"KcMEIRMnk AYBbQJ OrhEqam MryTfE UPnFwZRa MqFikXtX vvhepfGOLv PtJmiCr EKcKqpkGr HlSLTgp CRwllLBMfK DZmXEhh\",\"deadline\":\"2026-10-15T14:49:48.000Z\",\"description\":\"YyIoFEBRjgM FgQOdvtvtbIFZZq iFdFxYKSS PFFtu IHfSeqXOAB NUuoV RsmgothX NbowgLkb yFIhema bUDPEJwSpTJtix CaJYxfAxiFEqOKP\",\"reward\":\"81.01295248731181\",\"title\":\"pkxZKcAIjLAndPPAnDoxzfUQcFsnTsiZQWpbUeURJPQZHaxf\",\"token\":\"IMDBTY\"}",
+    "brief": {
+      "title": "pkxZKcAIjLAndPPAnDoxzfUQcFsnTsiZQWpbUeURJPQZHaxf",
+      "description": "YyIoFEBRjgM FgQOdvtvtbIFZZq iFdFxYKSS PFFtu IHfSeqXOAB NUuoV RsmgothX NbowgLkb yFIhema bUDPEJwSpTJtix CaJYxfAxiFEqOKP",
+      "criteria": "KcMEIRMnk AYBbQJ OrhEqam MryTfE UPnFwZRa MqFikXtX vvhepfGOLv PtJmiCr EKcKqpkGr HlSLTgp CRwllLBMfK DZmXEhh",
+      "reward": "81.01295248731181",
+      "token": "IMDBTY",
+      "deadline": "2026-10-15T14:49:48.000Z"
+    }
+  },
+  {
+    "index": 11,
+    "hash": "0x19338eb3f720f43459a1057e51e655da08980ce5a93f42e80b4054459965d61e",
+    "canonical": "{\"category\":\"Research\",\"criteria\":\"YCNfZRKiH ALTivQlg YZxkCG NWAboKFD nBexl LdvWoYgosV LGdESAU WEqugymr\",\"deadline\":\"2026-10-23T13:36:49.000Z\",\"description\":\"lvDQWzk IsXkK pLClw RLwUQsCJQtmgIL tPyONquPpMlV VboUI gpuUbBllgKeabrT mTIxBaTcun fEygiUsORGxVoVJ FwANgcQTQXmgL XhZACOh pbkHrU lXjOOqdOzFx NDiBteUAZLkbKSK RlVqGeVdHoWXcqX xSCPXfH CWSDAmSuz myCNxTaBfkfdLK bTiBsWwjdVGXvVH yGFGkKtABBpK TGAyeAVfXL\",\"reward\":\"80.82915526800491\",\"title\":\"XpoTEfyqNenteW\",\"token\":\"ETH\"}",
+    "brief": {
+      "title": "XpoTEfyqNenteW",
+      "description": "lvDQWzk IsXkK pLClw RLwUQsCJQtmgIL tPyONquPpMlV VboUI gpuUbBllgKeabrT mTIxBaTcun fEygiUsORGxVoVJ FwANgcQTQXmgL XhZACOh pbkHrU lXjOOqdOzFx NDiBteUAZLkbKSK RlVqGeVdHoWXcqX xSCPXfH CWSDAmSuz myCNxTaBfkfdLK bTiBsWwjdVGXvVH yGFGkKtABBpK TGAyeAVfXL",
+      "criteria": "YCNfZRKiH ALTivQlg YZxkCG NWAboKFD nBexl LdvWoYgosV LGdESAU WEqugymr",
+      "reward": "80.82915526800491",
+      "token": "ETH",
+      "deadline": "2026-10-23T13:36:49.000Z",
+      "category": "Research"
+    }
+  },
+  {
+    "index": 12,
+    "hash": "0x161df754795ffe2de049c38d48356abe835cfa75003ff68863a5973122883500",
+    "canonical": "{\"category\":\"Research\",\"criteria\":\"mrhCAwRD hyOOSaR PAVaLX vjvNH TypHZsK krGgpRBp xhJzkd nwpAFqoJl fYxMhjCwY\",\"deadline\":\"2026-10-25T19:10:23.000Z\",\"description\":\"QotDnsJKFirhHyu QqKCbpvlnrcYvJG VSzYzeRB FsKDvr gxAgey DUpsS vzWCQBPHa eXlkzlnhTfLPD AlMeHggAOQzH ekwSGxDlaza ioOCqgefilknM TFgJpGKNrKpRi KiviSGimnk bHjaypRDKSJbFX lxSRTFI\",\"reward\":\"93.74141491050956\",\"title\":\"qbWQUUotKubwVB helQiAqBPCRHtoEdR\",\"token\":\"IMDBTY\"}",
+    "brief": {
+      "title": "qbWQUUotKubwVB helQiAqBPCRHtoEdR",
+      "description": "QotDnsJKFirhHyu QqKCbpvlnrcYvJG VSzYzeRB FsKDvr gxAgey DUpsS vzWCQBPHa eXlkzlnhTfLPD AlMeHggAOQzH ekwSGxDlaza ioOCqgefilknM TFgJpGKNrKpRi KiviSGimnk bHjaypRDKSJbFX lxSRTFI",
+      "criteria": "mrhCAwRD hyOOSaR PAVaLX vjvNH TypHZsK krGgpRBp xhJzkd nwpAFqoJl fYxMhjCwY",
+      "reward": "93.74141491050956",
+      "token": "IMDBTY",
+      "deadline": "2026-10-25T19:10:23.000Z",
+      "category": "Research"
+    }
+  },
+  {
+    "index": 13,
+    "hash": "0x2775c0150d4311923be1571c05c7838909a1d3e2da459ed5768ede9929fc5dc2",
+    "canonical": "{\"category\":\"Security\",\"criteria\":\"adqITYIxa DwdieXoKZ ePNDU pRLTsuvPEc heeNxuObts XTQOmN bTFHAbtG UjqKTu JDnrUUiR JoXaT PkRqbiClwW\",\"deadline\":\"2026-10-24T17:25:34.000Z\",\"description\":\"rwUuLmcMNJb JqckDutyJtb EVPwLSKn IAeezE STFGyWyCFT PPTQSzITeCxPW fWVbgLDZW osbdBnT PRvivVQxszFq UKWDbAKJonH NZgAksP yYghmAiEUTBctoM HKnbyFwAlY wGXOceKXpwfjicB ZguIRBPudIQndvs JgPLOYcWvETyb yoiMIezTsV oxJjSpjFJf LjHGfuUZaurnv dkEnsYlZJ HiOSEfTkWLy xuaPRKmLtj YGmlvZQkbqTW beJXjTMABJYZNHB ibvMQtDmAqkkka Gxuhlmcz nUokPL\",\"reward\":\"79.02564867379645\",\"title\":\"PgLfiKJLydUdYVObl\",\"token\":\"IMDBTY\"}",
+    "brief": {
+      "title": "PgLfiKJLydUdYVObl",
+      "description": "rwUuLmcMNJb JqckDutyJtb EVPwLSKn IAeezE STFGyWyCFT PPTQSzITeCxPW fWVbgLDZW osbdBnT PRvivVQxszFq UKWDbAKJonH NZgAksP yYghmAiEUTBctoM HKnbyFwAlY wGXOceKXpwfjicB ZguIRBPudIQndvs JgPLOYcWvETyb yoiMIezTsV oxJjSpjFJf LjHGfuUZaurnv dkEnsYlZJ HiOSEfTkWLy xuaPRKmLtj YGmlvZQkbqTW beJXjTMABJYZNHB ibvMQtDmAqkkka Gxuhlmcz nUokPL",
+      "criteria": "adqITYIxa DwdieXoKZ ePNDU pRLTsuvPEc heeNxuObts XTQOmN bTFHAbtG UjqKTu JDnrUUiR JoXaT PkRqbiClwW",
+      "reward": "79.02564867379645",
+      "token": "IMDBTY",
+      "deadline": "2026-10-24T17:25:34.000Z",
+      "category": "Security"
+    }
+  },
+  {
+    "index": 14,
+    "hash": "0x9f1ae8923702f576264337bfedcacbda5fcdcb8108d5c54943e0d1f2c214c3e0",
+    "canonical": "{\"criteria\":\"xctkLjWas ICpNVzG OlEQAwXj cbuUQuvbM lZsDvXuyk cvZEWVDed otwNPeRAth\",\"deadline\":\"2026-10-23T17:44:21.000Z\",\"description\":\"toUTBDe aEPhyztapWh fnAQX LnxrTRsxKtdh wDnANpVx VgLlrjAqpDmh HumDzsi dDwuJJLoply EPmCcxNxFJut twIFOymXMopvDy pEmNVoNV YWJsG\",\"reward\":\"44.52022714523308\",\"title\":\"PYIRRXtAGKzZJsjK\",\"token\":\"IMDBTY\"}",
+    "brief": {
+      "title": "PYIRRXtAGKzZJsjK",
+      "description": "toUTBDe aEPhyztapWh fnAQX LnxrTRsxKtdh wDnANpVx VgLlrjAqpDmh HumDzsi dDwuJJLoply EPmCcxNxFJut twIFOymXMopvDy pEmNVoNV YWJsG",
+      "criteria": "xctkLjWas ICpNVzG OlEQAwXj cbuUQuvbM lZsDvXuyk cvZEWVDed otwNPeRAth",
+      "reward": "44.52022714523308",
+      "token": "IMDBTY",
+      "deadline": "2026-10-23T17:44:21.000Z"
+    }
+  },
+  {
+    "index": 15,
+    "hash": "0x1cf18105c381aa1fcba7bfc66a29208b86dff626787e2e6f66e7033a3fdb0479",
+    "canonical": "{\"criteria\":\"bxkjr shOiDC DJGBbTB nWQSkv wxisMXRp VGAQvpJfCn ciHuVV fFQQGQtipr gSLnBQs OfPbMnFuW YStunRn bqCCeEbdD UAKeIlzMqG NlnIJNdGgu eOCntUqNX\",\"deadline\":\"2026-10-23T21:04:30.000Z\",\"description\":\"wZctqRtO XjJKGmGtSyO aknFNwZIrd qhSqj aSOTKogvTyBb MpEAYdczsyjUrBk lFFasxbwk ymMRnY qDoLTDEe CXcAuig JHlkFOWjArIq ZoCMGKCQV XWAeDitnQ OGseEFBuNOLpW ibqwNxG qjZrCYMprwjzB rKBVNjbpopHeb ohLIYfNXlryUkzY SoMBES lHAmiVfvRz HTaJcje\",\"reward\":\"82.15100066432599\",\"title\":\"LcwveBcAhxAVIMDcUWQMT\",\"token\":\"USDG\"}",
+    "brief": {
+      "title": "LcwveBcAhxAVIMDcUWQMT",
+      "description": "wZctqRtO XjJKGmGtSyO aknFNwZIrd qhSqj aSOTKogvTyBb MpEAYdczsyjUrBk lFFasxbwk ymMRnY qDoLTDEe CXcAuig JHlkFOWjArIq ZoCMGKCQV XWAeDitnQ OGseEFBuNOLpW ibqwNxG qjZrCYMprwjzB rKBVNjbpopHeb ohLIYfNXlryUkzY SoMBES lHAmiVfvRz HTaJcje",
+      "criteria": "bxkjr shOiDC DJGBbTB nWQSkv wxisMXRp VGAQvpJfCn ciHuVV fFQQGQtipr gSLnBQs OfPbMnFuW YStunRn bqCCeEbdD UAKeIlzMqG NlnIJNdGgu eOCntUqNX",
+      "reward": "82.15100066432599",
+      "token": "USDG",
+      "deadline": "2026-10-23T21:04:30.000Z"
+    }
+  },
+  {
+    "index": 16,
+    "hash": "0xd81fac4fadbf6df2b2f7f80ba01cb99b663afa047a9a7e793b299dbf0ef15c8e",
+    "canonical": "{\"category\":\"Research\",\"criteria\":\"EqoNFJmaQA EyxZHdl QpkaqNTmV qxOLLHia PxkfqHBoZS VNhaE FUtee kPhlOZR wuGJBP iNpAEasJ EWBRnxELq SdIeNE ztKqlYi NqLukN\",\"deadline\":\"2026-10-22T19:41:12.000Z\",\"description\":\"bNZtxtnUQBgMwX fBBTq raLsHPKNXoplTtB cvUmAOdFr ZeQaNnxlHPRWE CcwBkv CtUGgAyMSszGys YestrJHzrAO zdGbAVyqCgqP WmdUoIUmNwKx uaLZk WrtgkhCMReND LmhzWGnys ICbMxThE\",\"reward\":\"68.1096640340058\",\"title\":\"CUePLhoQOsf\",\"token\":\"USDG\"}",
+    "brief": {
+      "title": "CUePLhoQOsf",
+      "description": "bNZtxtnUQBgMwX fBBTq raLsHPKNXoplTtB cvUmAOdFr ZeQaNnxlHPRWE CcwBkv CtUGgAyMSszGys YestrJHzrAO zdGbAVyqCgqP WmdUoIUmNwKx uaLZk WrtgkhCMReND LmhzWGnys ICbMxThE",
+      "criteria": "EqoNFJmaQA EyxZHdl QpkaqNTmV qxOLLHia PxkfqHBoZS VNhaE FUtee kPhlOZR wuGJBP iNpAEasJ EWBRnxELq SdIeNE ztKqlYi NqLukN",
+      "reward": "68.1096640340058",
+      "token": "USDG",
+      "deadline": "2026-10-22T19:41:12.000Z",
+      "category": "Research"
+    }
+  },
+  {
+    "index": 17,
+    "hash": "0x401daeb37b2d6d38203fc50b012a54186a648083733099f4538c5fabb656dcb0",
+    "canonical": "{\"criteria\":\"KXPtcAh RvnVMidSc USKFsHo rxgmefCzUD gcUlDXa iGHFGbcb EgLnCDh cpSkVhS oQquTBJNu OChZyoNa\",\"deadline\":\"2026-10-15T16:20:35.000Z\",\"description\":\"HSXLNwfXZU vByHWIImbkrHQ FHtNIDIrsvs YUYPaCNPB ECDRopkzjWJIyyD irAqGQGTwfpa xOnNCPXv imJcBxW jbnNtQikb IGpzFP bEYDxTjqgkO LCnYfEChCUU QiczWayvrbmLN RfhGIxt RDyrsISpPnz oAkcfRGnmYTw lAPdkTufDoRSxB hZEUMNmuNMJ EGtIKjyPyzWRzx VLqvoKw CRxaYeP ZHEIOzBpbLGjIkv DAIUTBLJ GBcmlF rjNAvCtFlv ChauspaNOBavSBX yRnXLbvtaoTbJD\",\"reward\":\"16.926466899998\",\"title\":\"kjUygtUSGcYyVHKCRCnaXynMualbDbBHOjVTPQqoIMl\",\"token\":\"USDG\"}",
+    "brief": {
+      "title": "kjUygtUSGcYyVHKCRCnaXynMualbDbBHOjVTPQqoIMl",
+      "description": "HSXLNwfXZU vByHWIImbkrHQ FHtNIDIrsvs YUYPaCNPB ECDRopkzjWJIyyD irAqGQGTwfpa xOnNCPXv imJcBxW jbnNtQikb IGpzFP bEYDxTjqgkO LCnYfEChCUU QiczWayvrbmLN RfhGIxt RDyrsISpPnz oAkcfRGnmYTw lAPdkTufDoRSxB hZEUMNmuNMJ EGtIKjyPyzWRzx VLqvoKw CRxaYeP ZHEIOzBpbLGjIkv DAIUTBLJ GBcmlF rjNAvCtFlv ChauspaNOBavSBX yRnXLbvtaoTbJD",
+      "criteria": "KXPtcAh RvnVMidSc USKFsHo rxgmefCzUD gcUlDXa iGHFGbcb EgLnCDh cpSkVhS oQquTBJNu OChZyoNa",
+      "reward": "16.926466899998",
+      "token": "USDG",
+      "deadline": "2026-10-15T16:20:35.000Z"
+    }
+  },
+  {
+    "index": 18,
+    "hash": "0x64dd74cd846b51c18b39e2e9927023446438868fe9ad86c965010df35c7956a2",
+    "canonical": "{\"category\":\"Data\",\"criteria\":\"mxDXt dLEuFU giaSXyOhG jXYfQvhMn rxxAQLw JoIro XIWIIvEbMP tUiJBdeip VAiYiH uOYRGLj RltTh vzRCUerOR gjitjITWu uLkzNSfs\",\"deadline\":\"2026-10-19T19:58:05.000Z\",\"description\":\"CDxydsBMj eJVuYxf bGLSB OGgzr HgxpmCAcanKn CHEOvUzKVQFR MTzPpBpwX qMkSJTS UtHFiHTWqRa zHEUr\",\"reward\":\"42.936301842380566\",\"title\":\"uqgWIAbsbSukofqonYHTvbcwdEyyC\",\"token\":\"USDG\"}",
+    "brief": {
+      "title": "uqgWIAbsbSukofqonYHTvbcwdEyyC",
+      "description": "CDxydsBMj eJVuYxf bGLSB OGgzr HgxpmCAcanKn CHEOvUzKVQFR MTzPpBpwX qMkSJTS UtHFiHTWqRa zHEUr",
+      "criteria": "mxDXt dLEuFU giaSXyOhG jXYfQvhMn rxxAQLw JoIro XIWIIvEbMP tUiJBdeip VAiYiH uOYRGLj RltTh vzRCUerOR gjitjITWu uLkzNSfs",
+      "reward": "42.936301842380566",
+      "token": "USDG",
+      "deadline": "2026-10-19T19:58:05.000Z",
+      "category": "Data"
+    }
+  },
+  {
+    "index": 19,
+    "hash": "0x6b325f5ca3f4d4a3615c3b22a84f4e66545943719cf083db9a0bcb0d7418ac8d",
+    "canonical": "{\"criteria\":\"rAXvIbZb ZMeQIo YbhOW dwtPs QWWeC bwrwmxGD\",\"deadline\":\"2026-10-27T16:07:11.000Z\",\"description\":\"jIDOllv KliFBgrVgHmxu TAhDFmlZpv wAJTWFQHJ UVFOgIeqAegaGZ kjpJSGmaSFaFy eXpzShCyfVHqn SBpaIvIw bhkqmjFqb dsrxMMZCDsKTX maaGUJWdMpBS cntDMWZlnSXW OjlYXjda eEzKRIMJgSYXH ywsBRphb gQycKY EBcoctT knCNR bjduNJZRGEh uBgFyi yRleVnuRwnDJeU sJlLCVzW luXdJXt cCEzRMkqoGNS pMfPDcPQn\",\"reward\":\"68.1608282599341\",\"title\":\"qvGrECzJpPwJvyPDYFxVmQaWxhajeDqz\",\"token\":\"ETH\"}",
+    "brief": {
+      "title": "qvGrECzJpPwJvyPDYFxVmQaWxhajeDqz",
+      "description": "jIDOllv KliFBgrVgHmxu TAhDFmlZpv wAJTWFQHJ UVFOgIeqAegaGZ kjpJSGmaSFaFy eXpzShCyfVHqn SBpaIvIw bhkqmjFqb dsrxMMZCDsKTX maaGUJWdMpBS cntDMWZlnSXW OjlYXjda eEzKRIMJgSYXH ywsBRphb gQycKY EBcoctT knCNR bjduNJZRGEh uBgFyi yRleVnuRwnDJeU sJlLCVzW luXdJXt cCEzRMkqoGNS pMfPDcPQn",
+      "criteria": "rAXvIbZb ZMeQIo YbhOW dwtPs QWWeC bwrwmxGD",
+      "reward": "68.1608282599341",
+      "token": "ETH",
+      "deadline": "2026-10-27T16:07:11.000Z"
+    }
+  },
+  {
+    "index": 20,
+    "hash": "0xea2775ace7dafcf3dbf66ef5d6b76604226b43d2947408aa2f1481f804b0025d",
+    "canonical": "{\"category\":\"Development\",\"criteria\":\"omBnIzX BnuYstm bUrXLO GJsPXc YTGXdBHMe\",\"deadline\":\"2026-10-21T06:49:37.000Z\",\"description\":\"dGzXDUXG pFwtBosOMRvl zuQaqXFFUMHG dBlNeQMZVBxN TJQAvB eCmiteCqwRmZr iPErZtl ZOFzIgd hLfpvAmxgBFPhjH BteYQ icvZUwzUYe kMDoxbMJ\",\"reward\":\"73.19401554428954\",\"title\":\"qXhYHWLOTgXJ GOEiXwuDzFqWxSMp ifCoJsFiq\",\"token\":\"ETH\"}",
+    "brief": {
+      "title": "qXhYHWLOTgXJ GOEiXwuDzFqWxSMp ifCoJsFiq",
+      "description": "dGzXDUXG pFwtBosOMRvl zuQaqXFFUMHG dBlNeQMZVBxN TJQAvB eCmiteCqwRmZr iPErZtl ZOFzIgd hLfpvAmxgBFPhjH BteYQ icvZUwzUYe kMDoxbMJ",
+      "criteria": "omBnIzX BnuYstm bUrXLO GJsPXc YTGXdBHMe",
+      "reward": "73.19401554428954",
+      "token": "ETH",
+      "deadline": "2026-10-21T06:49:37.000Z",
+      "category": "Development"
+    }
+  },
+  {
+    "index": 21,
+    "hash": "0x29e84d990ea2d857ffe2bbad293166fb51d26d0a4b58046cadc356cd8b268205",
+    "canonical": "{\"criteria\":\"ECxyMCb BElxbvEVjz YAjmylzpCE gSIFiwiQAs dzCom gTKcmX cZbMib\",\"deadline\":\"2026-10-20T16:12:43.000Z\",\"description\":\"blBKHBXtlvEYRzC tezlKkBcKOg neERPiR RyNKhlgoKgHFgGh JrfiyhwsVMXwFR celJdpOKq KtbQW OINFXEe wIqycMvdBgr bsRWlaTJ EHzdg tijSmlIDLH KEHhPywDki\",\"reward\":\"5.324307826619477\",\"title\":\"TheCmHLOGPpolzkwygeuhjV BbU nWEaTGFSMlajQ\",\"token\":\"USDG\"}",
+    "brief": {
+      "title": "TheCmHLOGPpolzkwygeuhjV BbU nWEaTGFSMlajQ",
+      "description": "blBKHBXtlvEYRzC tezlKkBcKOg neERPiR RyNKhlgoKgHFgGh JrfiyhwsVMXwFR celJdpOKq KtbQW OINFXEe wIqycMvdBgr bsRWlaTJ EHzdg tijSmlIDLH KEHhPywDki",
+      "criteria": "ECxyMCb BElxbvEVjz YAjmylzpCE gSIFiwiQAs dzCom gTKcmX cZbMib",
+      "reward": "5.324307826619477",
+      "token": "USDG",
+      "deadline": "2026-10-20T16:12:43.000Z"
+    }
+  },
+  {
+    "index": 22,
+    "hash": "0x598fc71810ee4f6510f254c5d67e80d79a1a3fe901252a03f8ff317d9d343357",
+    "canonical": "{\"category\":\"Security\",\"criteria\":\"WvoZUUkoxe yaaSpRnfo ONyDvCTy ueldAa NGqdnbAsB bbqOhPHimZ FUQfffsb IaKhHIgNy qBkhMesqAt\",\"deadline\":\"2026-10-25T14:43:02.000Z\",\"description\":\"tYqFHRM uiQYP TGnWy BzQqUZxpc uEOOLZevB bubYZLm QryuflJXaDqrHL sPXRNqQyGjJKw ZvIJDP TERyFddNVXTTPG KYydDEQRxNhWWs GQooTHZwn wGxKsdChABY ojVnlSSC OIggwUnAfQAhwyO hroMSediBqeI bYBGw eGRVuKwcWqefKuV\",\"reward\":\"78.89646546234668\",\"title\":\"PTnlKgDHAp cuzhOIUXAVcDMfiQilSJXEdDX\",\"token\":\"ETH\"}",
+    "brief": {
+      "title": "PTnlKgDHAp cuzhOIUXAVcDMfiQilSJXEdDX",
+      "description": "tYqFHRM uiQYP TGnWy BzQqUZxpc uEOOLZevB bubYZLm QryuflJXaDqrHL sPXRNqQyGjJKw ZvIJDP TERyFddNVXTTPG KYydDEQRxNhWWs GQooTHZwn wGxKsdChABY ojVnlSSC OIggwUnAfQAhwyO hroMSediBqeI bYBGw eGRVuKwcWqefKuV",
+      "criteria": "WvoZUUkoxe yaaSpRnfo ONyDvCTy ueldAa NGqdnbAsB bbqOhPHimZ FUQfffsb IaKhHIgNy qBkhMesqAt",
+      "reward": "78.89646546234668",
+      "token": "ETH",
+      "deadline": "2026-10-25T14:43:02.000Z",
+      "category": "Security"
+    }
+  },
+  {
+    "index": 23,
+    "hash": "0xb083ac5aac331b1e0fed0258ceff3cfad0badda9f09e25d51a74fab58291ecb9",
+    "canonical": "{\"criteria\":\"WOexAiN iRsHhTYPU USfTecl jpofjEGl TSVvFbKVk PaBpHIuwl zXgrmgoEtz lETRuv zaLiajR OUJPAsM TnOjYt\",\"deadline\":\"2026-10-27T08:20:00.000Z\",\"description\":\"QQdPN xxLMBEHiSXbRu pRmorKv QMVYc rfeCNHCVN zvALU snIpWmrdczYl DKnECLLKhDeDtD aYDjwxyLM FZgqglJSugayuO wDCBNJ qXaclfF\",\"reward\":\"55.01952809008105\",\"title\":\"KIgyUUsX b MpedboHgHOVMOgpITBxIDmWoQO\",\"token\":\"USDG\"}",
+    "brief": {
+      "title": "KIgyUUsX b MpedboHgHOVMOgpITBxIDmWoQO",
+      "description": "QQdPN xxLMBEHiSXbRu pRmorKv QMVYc rfeCNHCVN zvALU snIpWmrdczYl DKnECLLKhDeDtD aYDjwxyLM FZgqglJSugayuO wDCBNJ qXaclfF",
+      "criteria": "WOexAiN iRsHhTYPU USfTecl jpofjEGl TSVvFbKVk PaBpHIuwl zXgrmgoEtz lETRuv zaLiajR OUJPAsM TnOjYt",
+      "reward": "55.01952809008105",
+      "token": "USDG",
+      "deadline": "2026-10-27T08:20:00.000Z"
+    }
+  },
+  {
+    "index": 24,
+    "hash": "0x8c2d683005d4c6f2b9cf58d91a4fa33c2090add6ab5b38b0fa9ae9aa6eb66ff1",
+    "canonical": "{\"category\":\"Research\",\"criteria\":\"VeMMUWmrB cryjBic qWYfdHdr tesRy kOsxRJqC srwupx MeUoErFs vbSQHw cWuKpMma KgARCG SrgAPccOg JASYUMYFZt hMKIJvoDhV bawQQACW\",\"deadline\":\"2026-10-20T10:41:05.000Z\",\"description\":\"NPSnEXNwvVWZdh vLnJoLGHeqgBe RcJxrPOrdx tdFhkgTOmAAh HgtEWDVtS MgzAHmRnVFx qLYIWVdZZvdyjF hZwnlzrEugZ oDdbCFRTWY jrQMsUnPIl KQvLo OXjsZhAgCFSrnxD opKQGNldZR mSDSzubjrJCz MRjFF yRPBftOJyvWifTj HIfLRPCye LVSYU XmFLxZdpOlQHH xQQVspRmxXKyiRJ LOLlMBF pOyeOryT\",\"reward\":\"56.1871102709489\",\"title\":\"XjaVETnicUIhGISSksDoDojdghsWHOhjLXGSpRSHRcKZo\",\"token\":\"ETH\"}",
+    "brief": {
+      "title": "XjaVETnicUIhGISSksDoDojdghsWHOhjLXGSpRSHRcKZo",
+      "description": "NPSnEXNwvVWZdh vLnJoLGHeqgBe RcJxrPOrdx tdFhkgTOmAAh HgtEWDVtS MgzAHmRnVFx qLYIWVdZZvdyjF hZwnlzrEugZ oDdbCFRTWY jrQMsUnPIl KQvLo OXjsZhAgCFSrnxD opKQGNldZR mSDSzubjrJCz MRjFF yRPBftOJyvWifTj HIfLRPCye LVSYU XmFLxZdpOlQHH xQQVspRmxXKyiRJ LOLlMBF pOyeOryT",
+      "criteria": "VeMMUWmrB cryjBic qWYfdHdr tesRy kOsxRJqC srwupx MeUoErFs vbSQHw cWuKpMma KgARCG SrgAPccOg JASYUMYFZt hMKIJvoDhV bawQQACW",
+      "reward": "56.1871102709489",
+      "token": "ETH",
+      "deadline": "2026-10-20T10:41:05.000Z",
+      "category": "Research"
+    }
+  },
+  {
+    "index": 25,
+    "hash": "0x0f7733d75dac0849a85d267e46a0daa4ccafc284f8759e06eec0a73cc7d7f018",
+    "canonical": "{\"criteria\":\"UZzKTDI mRtIM mDfzWHvuzE DQpxcLgC vHUIDhYaqK EWCWHgWpJg knrifZTm QiSwcBfZ rmRVBEWdhS\",\"deadline\":\"2026-10-19T02:58:32.000Z\",\"description\":\"IqNXJlSkdwmO TUhDmt eDfyvEa PBgkbcoofzVzoT QDqyOWCIfpVccaq ImsQxlAQUmGy HPVExLpPepk DvKwz SwTVCTmrSYVCpln OmIDvvWyK\",\"reward\":\"74.46157537225149\",\"title\":\"dMagkKGFxjjz\",\"token\":\"IMDBTY\"}",
+    "brief": {
+      "title": "dMagkKGFxjjz",
+      "description": "IqNXJlSkdwmO TUhDmt eDfyvEa PBgkbcoofzVzoT QDqyOWCIfpVccaq ImsQxlAQUmGy HPVExLpPepk DvKwz SwTVCTmrSYVCpln OmIDvvWyK",
+      "criteria": "UZzKTDI mRtIM mDfzWHvuzE DQpxcLgC vHUIDhYaqK EWCWHgWpJg knrifZTm QiSwcBfZ rmRVBEWdhS",
+      "reward": "74.46157537225149",
+      "token": "IMDBTY",
+      "deadline": "2026-10-19T02:58:32.000Z"
+    }
+  },
+  {
+    "index": 26,
+    "hash": "0x902441744a27be6bb0952e7927259bb50365bfbbdce910ec517ad64caf6bc9b2",
+    "canonical": "{\"criteria\":\"dRuBg bGKqoiId DwpnaaNzY RBQEbyOYuo rpKIFT VgwAbMJzB XUnpieV KmbQFQkIw QOAlztfb\",\"deadline\":\"2026-10-27T02:24:51.000Z\",\"description\":\"gqFNBKfGbYuKUjb bZHsgXpeuMJB NdkDhzwURVoKh atQlyQIE ZoiJdqXhvaZJ VMsVuEAtRKv duRhsZB lXEGBJzr CEkgAWJx PxyHrkQIqwdQl iLXLnXh HDeDCcjBdQ XMCkxEDJwSPQIZw hataQCmPwkqx JiAySql rSOfMAbenwEtWug TlxzCtuteHWlS eLzTmUDM FXfHyONXzt Nonvz iHZOrRzAWJWP\",\"reward\":\"40.39885796302299\",\"title\":\"hksjbkIvEaYGPydyjuVUFBIUjxlxegFqKmAT\",\"token\":\"USDG\"}",
+    "brief": {
+      "title": "hksjbkIvEaYGPydyjuVUFBIUjxlxegFqKmAT",
+      "description": "gqFNBKfGbYuKUjb bZHsgXpeuMJB NdkDhzwURVoKh atQlyQIE ZoiJdqXhvaZJ VMsVuEAtRKv duRhsZB lXEGBJzr CEkgAWJx PxyHrkQIqwdQl iLXLnXh HDeDCcjBdQ XMCkxEDJwSPQIZw hataQCmPwkqx JiAySql rSOfMAbenwEtWug TlxzCtuteHWlS eLzTmUDM FXfHyONXzt Nonvz iHZOrRzAWJWP",
+      "criteria": "dRuBg bGKqoiId DwpnaaNzY RBQEbyOYuo rpKIFT VgwAbMJzB XUnpieV KmbQFQkIw QOAlztfb",
+      "reward": "40.39885796302299",
+      "token": "USDG",
+      "deadline": "2026-10-27T02:24:51.000Z"
+    }
+  },
+  {
+    "index": 27,
+    "hash": "0x76dbe4f06bd2cb9f64fd14eb2b12ddbb426f2dd4a7ea68bd1f39ce9619f614d6",
+    "canonical": "{\"criteria\":\"EUAotHV KtkFxVzu fHYYql FrruHqMWv xuDub sdVZXH XctTUPLi ipHtImqDm NzMuy QFUXISiCcv XdpCKS tEcREj JfAMOXSHg QuHMG awhIxit\",\"deadline\":\"2026-10-18T16:07:57.000Z\",\"description\":\"DpJYNnLL ZOkbmw ZVWUkkdBQVkXG KGtEEpfwKTdw NneqYGe ROaSbGB gLpSMeRHvaDnUHY mtIlC cYZbi HAsQvC qUcbsiSRQf pkaByeq VrFKsLyDtey crLoBDbcGuaJ KAQOCkHQiSomo\",\"reward\":\"55.06475178578544\",\"title\":\"hQaaBrIKZBHmZ\",\"token\":\"ETH\"}",
+    "brief": {
+      "title": "hQaaBrIKZBHmZ",
+      "description": "DpJYNnLL ZOkbmw ZVWUkkdBQVkXG KGtEEpfwKTdw NneqYGe ROaSbGB gLpSMeRHvaDnUHY mtIlC cYZbi HAsQvC qUcbsiSRQf pkaByeq VrFKsLyDtey crLoBDbcGuaJ KAQOCkHQiSomo",
+      "criteria": "EUAotHV KtkFxVzu fHYYql FrruHqMWv xuDub sdVZXH XctTUPLi ipHtImqDm NzMuy QFUXISiCcv XdpCKS tEcREj JfAMOXSHg QuHMG awhIxit",
+      "reward": "55.06475178578544",
+      "token": "ETH",
+      "deadline": "2026-10-18T16:07:57.000Z"
+    }
+  },
+  {
+    "index": 28,
+    "hash": "0x1070ea14ce81122d325e1882e964f718322f1bb87e5ab08a1692fc147e32ac21",
+    "canonical": "{\"criteria\":\"tHNCyavQ LQgTKN CPBGB oXyMmknmXK YgqNDmHH gYfNKPxtzY doJhEjItv DbFcclzvt\",\"deadline\":\"2026-10-22T08:38:05.000Z\",\"description\":\"DgfZdnyyYaE uRsPoSDlEG ZTSCQrJWTJwIUp kVyqq IEvOnhqGN xOTtmZ YPowxgoQ PXzvRvUibQRTcc GlkFGO sYHfXgnzZNot yzrowBsHwKq bRRUa UKseOwkiQNL ZPcsvewjmFMr vFWpUA JHlAfqXXvpr LRSIS bxAvQ ovqbFyd TlYyfxVYyWR cUobjtbgXsJYu rHChnwRFDEWCp rFYcbTNKAICb TNhmfWcSUyO RVYRIyjEZOqzXGY\",\"reward\":\"12.365523310477194\",\"title\":\"CFvDpuRePgwWsnz\",\"token\":\"IMDBTY\"}",
+    "brief": {
+      "title": "CFvDpuRePgwWsnz",
+      "description": "DgfZdnyyYaE uRsPoSDlEG ZTSCQrJWTJwIUp kVyqq IEvOnhqGN xOTtmZ YPowxgoQ PXzvRvUibQRTcc GlkFGO sYHfXgnzZNot yzrowBsHwKq bRRUa UKseOwkiQNL ZPcsvewjmFMr vFWpUA JHlAfqXXvpr LRSIS bxAvQ ovqbFyd TlYyfxVYyWR cUobjtbgXsJYu rHChnwRFDEWCp rFYcbTNKAICb TNhmfWcSUyO RVYRIyjEZOqzXGY",
+      "criteria": "tHNCyavQ LQgTKN CPBGB oXyMmknmXK YgqNDmHH gYfNKPxtzY doJhEjItv DbFcclzvt",
+      "reward": "12.365523310477194",
+      "token": "IMDBTY",
+      "deadline": "2026-10-22T08:38:05.000Z"
+    }
+  },
+  {
+    "index": 29,
+    "hash": "0xe152610ece64d5af57b97c5f6ba658775812d90600f385b144e9bff8e7f38f11",
+    "canonical": "{\"criteria\":\"cHHnXUaPo VnQCgnT CkEev ViGkdFvNHg MzMonErEn PTXxit qwhPpybFk HQqFOg RgwBsirbJ FGjuRaX tkTpPnBcDW MoTDHzDqkv oQtpMeJt upiVR VnhTD\",\"deadline\":\"2026-10-20T15:43:06.000Z\",\"description\":\"bEunqovgS AFoTeWlKu chfku XYdFWQGuGGiIwO njjWywObeFF zATjaE BvzKhCMuGGwwG rcpKgjB UqGDPpqSrwQn kEjVA\",\"reward\":\"78.4078931282966\",\"title\":\"lfuGwVtdcD\",\"token\":\"ETH\"}",
+    "brief": {
+      "title": "lfuGwVtdcD",
+      "description": "bEunqovgS AFoTeWlKu chfku XYdFWQGuGGiIwO njjWywObeFF zATjaE BvzKhCMuGGwwG rcpKgjB UqGDPpqSrwQn kEjVA",
+      "criteria": "cHHnXUaPo VnQCgnT CkEev ViGkdFvNHg MzMonErEn PTXxit qwhPpybFk HQqFOg RgwBsirbJ FGjuRaX tkTpPnBcDW MoTDHzDqkv oQtpMeJt upiVR VnhTD",
+      "reward": "78.4078931282966",
+      "token": "ETH",
+      "deadline": "2026-10-20T15:43:06.000Z"
+    }
+  },
+  {
+    "index": 30,
+    "hash": "0x8b029ab6ce0c1c1a2c2e9f89fd19a42b3f17f36787fe0905bd796948394e39fb",
+    "canonical": "{\"category\":\"Research\",\"criteria\":\"ZeCSMBOhxE dhDkAFiD gvtEu oWdEBleI sudAA jjFTfGrvb vbiZuyPjq WgLQdgNj XrZwDdqXX lLPHy xFmyJmQKML XTWkyihid kvmpSg YDRgOLOKu\",\"deadline\":\"2026-10-17T07:32:17.000Z\",\"description\":\"KpPpis whLtFxmcVf gMEATR HaKVrQTQoKqU vNrLCsmnxDG rTRwGgsoLaUBT MSNlHYgTZ JVyorvdmiSkOKYy fFCJyRHiVpdCqw YVlwWx LqRfvbDp oHJhTuCdLt qRLLHMAflIfWw uVhtgRdsdAcOpVG OcvvnSAaUPcVC xjGoVgWC UcXFQCCUzHixLh RPunVXKIaxyQU fouIxebvYY TtjFiaiPim ymBsTYCKoQ DdlekyQehLegiT IduurJbQRnseZg yMhbVKt gUrCIrIPujUBBC ADMMrLoZAph RsquOPGIBUmjNA\",\"reward\":\"14.00940269950301\",\"title\":\"HHjteQSPAIFDuOQwtEZrxnnvSfW\",\"token\":\"ETH\"}",
+    "brief": {
+      "title": "HHjteQSPAIFDuOQwtEZrxnnvSfW",
+      "description": "KpPpis whLtFxmcVf gMEATR HaKVrQTQoKqU vNrLCsmnxDG rTRwGgsoLaUBT MSNlHYgTZ JVyorvdmiSkOKYy fFCJyRHiVpdCqw YVlwWx LqRfvbDp oHJhTuCdLt qRLLHMAflIfWw uVhtgRdsdAcOpVG OcvvnSAaUPcVC xjGoVgWC UcXFQCCUzHixLh RPunVXKIaxyQU fouIxebvYY TtjFiaiPim ymBsTYCKoQ DdlekyQehLegiT IduurJbQRnseZg yMhbVKt gUrCIrIPujUBBC ADMMrLoZAph RsquOPGIBUmjNA",
+      "criteria": "ZeCSMBOhxE dhDkAFiD gvtEu oWdEBleI sudAA jjFTfGrvb vbiZuyPjq WgLQdgNj XrZwDdqXX lLPHy xFmyJmQKML XTWkyihid kvmpSg YDRgOLOKu",
+      "reward": "14.00940269950301",
+      "token": "ETH",
+      "deadline": "2026-10-17T07:32:17.000Z",
+      "category": "Research"
+    }
+  },
+  {
+    "index": 31,
+    "hash": "0x93a973ca62f52fe2bd49a93ddbe6dbbab0256b9a80191417136ffb5e8a7bd649",
+    "canonical": "{\"criteria\":\"AfTmkPL seSXXRbRt KCADGN YXEEQCFMDF JvjaOvBZvE MIDvHvE QSObG fIMUYXZmm KDGXvYo JzybgAyN tWpVxytLSB PVEQK LMooye FRaTYAt DqIcyIf\",\"deadline\":\"2026-10-24T06:55:32.000Z\",\"description\":\"NSgcdiJcHsdu GKGWfncKSR VXnbjpPSZr emwLq tnDfhfhjiSSMVB QbkKmziNn mdmlrUpRD mOkgtuiEo kgwEKoHot gxamITrD fGMqEUGiOe URPfRdrb JlbiBhYnAFaAt MTNbvcYkYcde uXhqWwDilTkeAil NUWGWp XnbQUp xPsnOIpKGXA uTtxMCQIrUvIai\",\"reward\":\"60.98052593727005\",\"title\":\"GJzsJvUgpbSmqPhrkUhvpEPtuyxhzza\",\"token\":\"IMDBTY\"}",
+    "brief": {
+      "title": "GJzsJvUgpbSmqPhrkUhvpEPtuyxhzza",
+      "description": "NSgcdiJcHsdu GKGWfncKSR VXnbjpPSZr emwLq tnDfhfhjiSSMVB QbkKmziNn mdmlrUpRD mOkgtuiEo kgwEKoHot gxamITrD fGMqEUGiOe URPfRdrb JlbiBhYnAFaAt MTNbvcYkYcde uXhqWwDilTkeAil NUWGWp XnbQUp xPsnOIpKGXA uTtxMCQIrUvIai",
+      "criteria": "AfTmkPL seSXXRbRt KCADGN YXEEQCFMDF JvjaOvBZvE MIDvHvE QSObG fIMUYXZmm KDGXvYo JzybgAyN tWpVxytLSB PVEQK LMooye FRaTYAt DqIcyIf",
+      "reward": "60.98052593727005",
+      "token": "IMDBTY",
+      "deadline": "2026-10-24T06:55:32.000Z"
+    }
+  },
+  {
+    "index": 32,
+    "hash": "0x619c9df4414795cc88e55a80a771f9b50da4f08c130b97f69763f2b3719a230d",
+    "canonical": "{\"criteria\":\"GPYKqgulS GNuBxooSNL VuBbAY qTzUSeRY LWuDiTsh UTSiscNPq vpcqYC JzWiL\",\"deadline\":\"2026-10-17T17:10:10.000Z\",\"description\":\"UrFFuijCbcVS EUbUN ISSKNFmh tXkgcvoua BdavHJxaHP OljDatTuMQK rAPXLzYQluJCIS ShucqSQks fMmjSmPw tYDBGzs tUzkAMpkWHyPmYZ waFrIJHDll yZzRoX XiQzWUF kzSnSYpRmxSx szKTqPmXwYzcqK frgrqbhaMZ gogERaQG uXJSakthU rpzMByKBhYoAL DsCkPNt IWwNjtjCh zcZFGuZeH mdkMOCZ HYGdvvnc vYQnqj\",\"reward\":\"4.255624238234661\",\"title\":\"EuRPZXGBOoPNTpRWwwUXZkTuAN\",\"token\":\"ETH\"}",
+    "brief": {
+      "title": "EuRPZXGBOoPNTpRWwwUXZkTuAN",
+      "description": "UrFFuijCbcVS EUbUN ISSKNFmh tXkgcvoua BdavHJxaHP OljDatTuMQK rAPXLzYQluJCIS ShucqSQks fMmjSmPw tYDBGzs tUzkAMpkWHyPmYZ waFrIJHDll yZzRoX XiQzWUF kzSnSYpRmxSx szKTqPmXwYzcqK frgrqbhaMZ gogERaQG uXJSakthU rpzMByKBhYoAL DsCkPNt IWwNjtjCh zcZFGuZeH mdkMOCZ HYGdvvnc vYQnqj",
+      "criteria": "GPYKqgulS GNuBxooSNL VuBbAY qTzUSeRY LWuDiTsh UTSiscNPq vpcqYC JzWiL",
+      "reward": "4.255624238234661",
+      "token": "ETH",
+      "deadline": "2026-10-17T17:10:10.000Z"
+    }
+  },
+  {
+    "index": 33,
+    "hash": "0xc7fbcafdf9c4451af90d4a95ab21e8e74f166b16121d23fabbc10285112db45d",
+    "canonical": "{\"category\":\"Development\",\"criteria\":\"IAFAUrbaF MvIuVsFo ahdpFG macqJAvM GeCAL cNMzBQyvKe SSsNcYiQL ueGDsmKRl cjElKYb JTHKkmOp HeDnfbNhCD FQqfeyxdw bVGtni AtXhcc LWWOsyJYUA\",\"deadline\":\"2026-10-17T12:48:36.000Z\",\"description\":\"ilqZGjjadclhDYW bunaRjq mmLAEJOdioHRBz YAbfzc mFHTWmkH ThtdTR YJZiIQ UQOOJDHrKoZ nqAvoAygScq LfpyvBJNATq JgWdnLd Potqd JbIIOExJfGyxO DHPQqFEwlJ Syufib BOzRbrWdGEDgt zbELqXMmgCBxQA xWhzs txlVQgSjjDsGo HLAGLczaQjOT ZjolecRRviLX fECAjgJFELeE jpwqGd MyCuphcj CcdnnwnRu YcQNphZM IlpSMiJF\",\"reward\":\"77.95194755140379\",\"title\":\"fmqhzApXAPLrfVEOaYb yGufjOCwFXLvDLcLggTRdOho\",\"token\":\"USDG\"}",
+    "brief": {
+      "title": "fmqhzApXAPLrfVEOaYb yGufjOCwFXLvDLcLggTRdOho",
+      "description": "ilqZGjjadclhDYW bunaRjq mmLAEJOdioHRBz YAbfzc mFHTWmkH ThtdTR YJZiIQ UQOOJDHrKoZ nqAvoAygScq LfpyvBJNATq JgWdnLd Potqd JbIIOExJfGyxO DHPQqFEwlJ Syufib BOzRbrWdGEDgt zbELqXMmgCBxQA xWhzs txlVQgSjjDsGo HLAGLczaQjOT ZjolecRRviLX fECAjgJFELeE jpwqGd MyCuphcj CcdnnwnRu YcQNphZM IlpSMiJF",
+      "criteria": "IAFAUrbaF MvIuVsFo ahdpFG macqJAvM GeCAL cNMzBQyvKe SSsNcYiQL ueGDsmKRl cjElKYb JTHKkmOp HeDnfbNhCD FQqfeyxdw bVGtni AtXhcc LWWOsyJYUA",
+      "reward": "77.95194755140379",
+      "token": "USDG",
+      "deadline": "2026-10-17T12:48:36.000Z",
+      "category": "Development"
+    }
+  },
+  {
+    "index": 34,
+    "hash": "0x72fbab330114aafebe77e48a5379ad65f53335f1b3b0d77fdabefe452f43dc66",
+    "canonical": "{\"criteria\":\"VQwCTSFaKV YddHPaxpUB ZqkAFrYp saQfcCHHGV LsYOGbwwW iLRhu uXiHYbhn LiYxBXsNIg synDXOITb VpcLEMpP xvDTHdQqgO\",\"deadline\":\"2026-10-20T00:05:39.000Z\",\"description\":\"dfQFgo UsBwVTsrt ZsKvQUs rvsLYj anjNGVJ oCspLbJzXgvkS XJVHMcJFDs HJDqavusmD UATgwkh KKJgVIrjfbr bowpoLf VjImiGGQnNtLG QBXaJ daUIYeISo PncLDyqxxh lKpqOCxTtyHoHH DPKwuPsv usxfxgAtbx HzCMZiOPQnpX ciOpHrICfmKMO gIZvxTRxjfzsgc Mzkvw hyOxiuCALDnU WBwdDUh\",\"reward\":\"36.14596052989608\",\"title\":\"pLlKTaEshlIVhduyPHDXYfT DUHbREFBr\",\"token\":\"IMDBTY\"}",
+    "brief": {
+      "title": "pLlKTaEshlIVhduyPHDXYfT DUHbREFBr",
+      "description": "dfQFgo UsBwVTsrt ZsKvQUs rvsLYj anjNGVJ oCspLbJzXgvkS XJVHMcJFDs HJDqavusmD UATgwkh KKJgVIrjfbr bowpoLf VjImiGGQnNtLG QBXaJ daUIYeISo PncLDyqxxh lKpqOCxTtyHoHH DPKwuPsv usxfxgAtbx HzCMZiOPQnpX ciOpHrICfmKMO gIZvxTRxjfzsgc Mzkvw hyOxiuCALDnU WBwdDUh",
+      "criteria": "VQwCTSFaKV YddHPaxpUB ZqkAFrYp saQfcCHHGV LsYOGbwwW iLRhu uXiHYbhn LiYxBXsNIg synDXOITb VpcLEMpP xvDTHdQqgO",
+      "reward": "36.14596052989608",
+      "token": "IMDBTY",
+      "deadline": "2026-10-20T00:05:39.000Z"
+    }
+  },
+  {
+    "index": 35,
+    "hash": "0xbd2abdab759583c287a45d9ffb2d0fc0d28f4946ff9924ae742a33f56d98f0ea",
+    "canonical": "{\"criteria\":\"jADwxn UEIAEmSYh VcJtIlwlk GcdofrRZ elQxkYeb\",\"deadline\":\"2026-10-23T19:30:54.000Z\",\"description\":\"cjSMtUBFw tRvFRnrQ TlfbwuLNlYaC YbOXguwivA ThxmJycRWm vXIwfpHxwcOgZ VSecVER xyaFYsYFr VVRwIAOFztLLUc vcSjkdzEPxm\",\"reward\":\"68.80948440957972\",\"title\":\"QhUkHbWhjCtYPlQxVKzSH\",\"token\":\"USDG\"}",
+    "brief": {
+      "title": "QhUkHbWhjCtYPlQxVKzSH",
+      "description": "cjSMtUBFw tRvFRnrQ TlfbwuLNlYaC YbOXguwivA ThxmJycRWm vXIwfpHxwcOgZ VSecVER xyaFYsYFr VVRwIAOFztLLUc vcSjkdzEPxm",
+      "criteria": "jADwxn UEIAEmSYh VcJtIlwlk GcdofrRZ elQxkYeb",
+      "reward": "68.80948440957972",
+      "token": "USDG",
+      "deadline": "2026-10-23T19:30:54.000Z"
+    }
+  },
+  {
+    "index": 36,
+    "hash": "0xf5bdf4d75543a5fc3dbc2cda359d1a72d61dec48440e5fb696de1ec92423ab0c",
+    "canonical": "{\"category\":\"Security\",\"criteria\":\"PvBmGHhKzi tYZlv qNTjpJk WTBGZZAvLq wVNgxZ ZdapAxGg TrivieLHp MoaOAgRdZy kZAKhuL DzazqEeibg TijkBzte YTGOiqE LAoeqg\",\"deadline\":\"2026-10-21T13:13:30.000Z\",\"description\":\"guyaSsL mfhSgPbI dItLQXviBP kmqZlUoh zAibiVeMhXv FriujaL vjIHNhHaobVPsY huWfnu RowvNo YJeYPPqemQMKcv qmqCljYkbJuTZb ipquPLt KInpqedsUdtgM teLQfYr qXlWQTfKllu ZCSQBB uEExHnQuFQfU kLXnxObm GzdtotLoYmwnkz CfHwfkQlAeL veuMSjgFuRPhl DzJQYgKuRYIDJ NIYmmYyRx GMGChim IYYKQfMVeMJXeY jwdmgt ksnZoo utPef\",\"reward\":\"14.821672585905974\",\"title\":\"lZquezdDvOFSOO\",\"token\":\"USDG\"}",
+    "brief": {
+      "title": "lZquezdDvOFSOO",
+      "description": "guyaSsL mfhSgPbI dItLQXviBP kmqZlUoh zAibiVeMhXv FriujaL vjIHNhHaobVPsY huWfnu RowvNo YJeYPPqemQMKcv qmqCljYkbJuTZb ipquPLt KInpqedsUdtgM teLQfYr qXlWQTfKllu ZCSQBB uEExHnQuFQfU kLXnxObm GzdtotLoYmwnkz CfHwfkQlAeL veuMSjgFuRPhl DzJQYgKuRYIDJ NIYmmYyRx GMGChim IYYKQfMVeMJXeY jwdmgt ksnZoo utPef",
+      "criteria": "PvBmGHhKzi tYZlv qNTjpJk WTBGZZAvLq wVNgxZ ZdapAxGg TrivieLHp MoaOAgRdZy kZAKhuL DzazqEeibg TijkBzte YTGOiqE LAoeqg",
+      "reward": "14.821672585905974",
+      "token": "USDG",
+      "deadline": "2026-10-21T13:13:30.000Z",
+      "category": "Security"
+    }
+  },
+  {
+    "index": 37,
+    "hash": "0x3284b831793d2c69e8d628dc4ba021118e94567ba988c1529e10b11235e6468d",
+    "canonical": "{\"category\":\"Security\",\"criteria\":\"oAfUYk bxXcqWH NiWYGT DBhodQ mHSBejqgu ztjEQqKYbM IRIFu QBnvGxg bTmKJpYln JFgMH\",\"deadline\":\"2026-10-19T08:27:42.000Z\",\"description\":\"vNhdDEwYhNnUN OVxotHYNvJ RcNqsyaTtkLhB OTfdRtOFESgmGaH HzTaRmNNddxGn vmjXb mYsJDxJODtJ uFyhUHUPkhCp biOMD LwCHoc pAQsJIjJB YFBJs rXMKgQUbwJOXqIN BYWbLDQwMXgLwF mvhDggqqImmh\",\"reward\":\"62.90303612190624\",\"title\":\"gNqATKcZ ivdhMXEKbkeJKS nyahDZMFWgcEXUnVlcpcqZ\",\"token\":\"ETH\"}",
+    "brief": {
+      "title": "gNqATKcZ ivdhMXEKbkeJKS nyahDZMFWgcEXUnVlcpcqZ",
+      "description": "vNhdDEwYhNnUN OVxotHYNvJ RcNqsyaTtkLhB OTfdRtOFESgmGaH HzTaRmNNddxGn vmjXb mYsJDxJODtJ uFyhUHUPkhCp biOMD LwCHoc pAQsJIjJB YFBJs rXMKgQUbwJOXqIN BYWbLDQwMXgLwF mvhDggqqImmh",
+      "criteria": "oAfUYk bxXcqWH NiWYGT DBhodQ mHSBejqgu ztjEQqKYbM IRIFu QBnvGxg bTmKJpYln JFgMH",
+      "reward": "62.90303612190624",
+      "token": "ETH",
+      "deadline": "2026-10-19T08:27:42.000Z",
+      "category": "Security"
+    }
+  },
+  {
+    "index": 38,
+    "hash": "0xf39c419c20f50ea56e3a13b638cff0f7070719d6b0eb4be57205463edb492e98",
+    "canonical": "{\"category\":\"Development\",\"criteria\":\"GONtPHG PBCcFn bkFHGhd KdpKgNzyns rJpIluDGAA ryumOiD huwwhkZJ Enxyqdgf ZyGaMiXoY wxwErCAq\",\"deadline\":\"2026-10-18T22:54:49.000Z\",\"description\":\"eMAybR wlJvMmSTMSnklH asWQtZLfF PPVgxras iXyybhzLjD GMUesCPRYOnkC QGsnqxQlaSiukYQ vDWxtHolYBHH HOoqkq TjKFCDJlKhW HlBThYQA vhUjeYbOhjUhl OBhRcxZYLEf KxpeeReQNQf zqMYHtXKpzU DsybxUIrhp bNnIRM xwvFE nEwjkcCSc TEEtzLX OGYyiFXMFs VSUrNx OHVakOawssyC\",\"reward\":\"97.70521460089373\",\"title\":\"x xTKlvgZjznAtDCCfKYQrfNFMQhLkfidVxN\",\"token\":\"ETH\"}",
+    "brief": {
+      "title": "x xTKlvgZjznAtDCCfKYQrfNFMQhLkfidVxN",
+      "description": "eMAybR wlJvMmSTMSnklH asWQtZLfF PPVgxras iXyybhzLjD GMUesCPRYOnkC QGsnqxQlaSiukYQ vDWxtHolYBHH HOoqkq TjKFCDJlKhW HlBThYQA vhUjeYbOhjUhl OBhRcxZYLEf KxpeeReQNQf zqMYHtXKpzU DsybxUIrhp bNnIRM xwvFE nEwjkcCSc TEEtzLX OGYyiFXMFs VSUrNx OHVakOawssyC",
+      "criteria": "GONtPHG PBCcFn bkFHGhd KdpKgNzyns rJpIluDGAA ryumOiD huwwhkZJ Enxyqdgf ZyGaMiXoY wxwErCAq",
+      "reward": "97.70521460089373",
+      "token": "ETH",
+      "deadline": "2026-10-18T22:54:49.000Z",
+      "category": "Development"
+    }
+  },
+  {
+    "index": 39,
+    "hash": "0x696bbc78485cbe9f23643c1776bce21a9128f862e1486a1e3e1097e1f1485e4e",
+    "canonical": "{\"criteria\":\"mQCKSGR BNvanH GsRZUCl mZewB yAJwMYfTx EoHKi wDpWEVbg SIWlceZp\",\"deadline\":\"2026-10-19T11:47:49.000Z\",\"description\":\"SIMZyRRV DGNWsTNKuCcaeN RjTbK LydsiLYaYMyjy iDukeWMFW NsXoDNN xtpmJQZcBaeHB FDwzdsAq sPxalnlTt idbjemCaKo fWHfLNgQAJ EBsfaLMycC PMFqOMg bwReqcnNbepHHKU GKgzoYlqNacGfVV OhNkwcIcZQUZh qSwAJSRKQVCz vSxXmoOoL ozTpNZcJQ OEybzdlOKnqZUj wDpltIju QqoGQjAh TNrMCpiePJx sEyUqGVcDjMTXZl LAfpZwE GgbagVvXWpFzIh UdjISGgjMPRZq QvNwEan\",\"reward\":\"25.130725399686746\",\"title\":\"IAwlnQFHWrjNWxWlDzkAEinXmIpZlMgKtyCUu\",\"token\":\"ETH\"}",
+    "brief": {
+      "title": "IAwlnQFHWrjNWxWlDzkAEinXmIpZlMgKtyCUu",
+      "description": "SIMZyRRV DGNWsTNKuCcaeN RjTbK LydsiLYaYMyjy iDukeWMFW NsXoDNN xtpmJQZcBaeHB FDwzdsAq sPxalnlTt idbjemCaKo fWHfLNgQAJ EBsfaLMycC PMFqOMg bwReqcnNbepHHKU GKgzoYlqNacGfVV OhNkwcIcZQUZh qSwAJSRKQVCz vSxXmoOoL ozTpNZcJQ OEybzdlOKnqZUj wDpltIju QqoGQjAh TNrMCpiePJx sEyUqGVcDjMTXZl LAfpZwE GgbagVvXWpFzIh UdjISGgjMPRZq QvNwEan",
+      "criteria": "mQCKSGR BNvanH GsRZUCl mZewB yAJwMYfTx EoHKi wDpWEVbg SIWlceZp",
+      "reward": "25.130725399686746",
+      "token": "ETH",
+      "deadline": "2026-10-19T11:47:49.000Z"
+    }
+  },
+  {
+    "index": 40,
+    "hash": "0xc4e4c6f85ecd6a9f2e2f67db633d3af1f9d69cd050b8e90db627a6d7dcaa2cfe",
+    "canonical": "{\"criteria\":\"aIBZoi LAgKXgotiM APPYYPP FJyvpfehPH rzprAgc YVmnREuRer VpNWhPfZfu hwiMT TiYWIvz ZsgBDxuW\",\"deadline\":\"2026-10-23T18:58:10.000Z\",\"description\":\"UbVkMzKLJhw osWTbi cfQLoBCRu NhHZFhATCcWoVQ pPtUxVylgrf ebXpNC fBeEYdTYSxSoZt txoUOhjZOVlNCxU Afeafan fJOWhNvWQtwH kDSXnrSKx zvfWJKYOjOxB LRBYRqTmAsNwo kzHGWLJcgqrdK FfqEfxBJea iNsfXLxsPzlSt\",\"reward\":\"66.96457555776522\",\"title\":\"NwrOlcrrsTZBuJnFIdRwENPBzmYfuWOckboN\",\"token\":\"USDG\"}",
+    "brief": {
+      "title": "NwrOlcrrsTZBuJnFIdRwENPBzmYfuWOckboN",
+      "description": "UbVkMzKLJhw osWTbi cfQLoBCRu NhHZFhATCcWoVQ pPtUxVylgrf ebXpNC fBeEYdTYSxSoZt txoUOhjZOVlNCxU Afeafan fJOWhNvWQtwH kDSXnrSKx zvfWJKYOjOxB LRBYRqTmAsNwo kzHGWLJcgqrdK FfqEfxBJea iNsfXLxsPzlSt",
+      "criteria": "aIBZoi LAgKXgotiM APPYYPP FJyvpfehPH rzprAgc YVmnREuRer VpNWhPfZfu hwiMT TiYWIvz ZsgBDxuW",
+      "reward": "66.96457555776522",
+      "token": "USDG",
+      "deadline": "2026-10-23T18:58:10.000Z"
+    }
+  },
+  {
+    "index": 41,
+    "hash": "0xe40f85d2ad6dc525052d9472e925b4abe7b17a30e12fc88c3d8adbebbc15feae",
+    "canonical": "{\"category\":\"Development\",\"criteria\":\"tKhgv SsAclR HrJFHfcK zwehIGv ZuRDjfcyo bQSHkMjUc yUIBOCaE rqkEMLrNA\",\"deadline\":\"2026-10-28T16:36:34.000Z\",\"description\":\"ewAhgAXDW gRPTJWca uilSZG INyiYfvfA WoYtzGNVsRS uZQRreG BzenZQkfx fIpwIoALksJsgUD vuTBaRLAZlMYc AeUXOoZun vVaTihdDYoBI KkKrFmWwkeIr zElNzTZnwlVoXAm NvkkpMOABqKfQ EKburhH EDskSwufJIPIsb sylIOmOeeNDFzeL jjxtUMNknhCiHU LRwDNOLnnhWLRLL mzGdBMeZnrRMTK RQZFgrNZ trdoTMlo cSUPRQpSx nyJqQHtRR yVRGUKGH caroDCIFOtM PjBLbM uuMbGaCzyqeRY wjAijRRndTMuxZ\",\"reward\":\"66.03991472030563\",\"title\":\"ACcFktXEeIBdcEvsAMlUx\",\"token\":\"IMDBTY\"}",
+    "brief": {
+      "title": "ACcFktXEeIBdcEvsAMlUx",
+      "description": "ewAhgAXDW gRPTJWca uilSZG INyiYfvfA WoYtzGNVsRS uZQRreG BzenZQkfx fIpwIoALksJsgUD vuTBaRLAZlMYc AeUXOoZun vVaTihdDYoBI KkKrFmWwkeIr zElNzTZnwlVoXAm NvkkpMOABqKfQ EKburhH EDskSwufJIPIsb sylIOmOeeNDFzeL jjxtUMNknhCiHU LRwDNOLnnhWLRLL mzGdBMeZnrRMTK RQZFgrNZ trdoTMlo cSUPRQpSx nyJqQHtRR yVRGUKGH caroDCIFOtM PjBLbM uuMbGaCzyqeRY wjAijRRndTMuxZ",
+      "criteria": "tKhgv SsAclR HrJFHfcK zwehIGv ZuRDjfcyo bQSHkMjUc yUIBOCaE rqkEMLrNA",
+      "reward": "66.03991472030563",
+      "token": "IMDBTY",
+      "deadline": "2026-10-28T16:36:34.000Z",
+      "category": "Development"
+    }
+  },
+  {
+    "index": 42,
+    "hash": "0x3ebc20ad92853e65cb8aad8bab205bf31619cc99c6cab0b9b80aa753abc54d82",
+    "canonical": "{\"criteria\":\"jDCzj ZyQrNTGt KdMvhdjH GSdormJLv aRVhy uoyEcst DLVJpxKQE JwAvhOCgd fBAsPE hDYkQYKK TCytfr ykFmFJsbF ICYzzfa\",\"deadline\":\"2026-10-18T05:27:44.000Z\",\"description\":\"mVWaOW sjrjLPKkv FqZYPU vqswvWTY Fyvksy yhFXlKuV lNTxBRfSB uvVpGLjBekj IXCbjVhg tFgpEXKiVeJ YORutn odcyHYAkru NfKwEyLXTKCO utMZihzKbkGHPY ZvwADjKYtycm mQZxywKfm inKNzMvQPWHGa YFRHtE ZAKkTePB OodiBCZCmL nnmBDwIVKOZqRme TsrNT uiUFbVkfJzEXIP moUTttENScD rxfim\",\"reward\":\"10.928794284142304\",\"title\":\"kydjcQuywI yIzcxhefyqGmKcHyUmnJAHLsWSkZC D\",\"token\":\"USDG\"}",
+    "brief": {
+      "title": "kydjcQuywI yIzcxhefyqGmKcHyUmnJAHLsWSkZC D",
+      "description": "mVWaOW sjrjLPKkv FqZYPU vqswvWTY Fyvksy yhFXlKuV lNTxBRfSB uvVpGLjBekj IXCbjVhg tFgpEXKiVeJ YORutn odcyHYAkru NfKwEyLXTKCO utMZihzKbkGHPY ZvwADjKYtycm mQZxywKfm inKNzMvQPWHGa YFRHtE ZAKkTePB OodiBCZCmL nnmBDwIVKOZqRme TsrNT uiUFbVkfJzEXIP moUTttENScD rxfim",
+      "criteria": "jDCzj ZyQrNTGt KdMvhdjH GSdormJLv aRVhy uoyEcst DLVJpxKQE JwAvhOCgd fBAsPE hDYkQYKK TCytfr ykFmFJsbF ICYzzfa",
+      "reward": "10.928794284142304",
+      "token": "USDG",
+      "deadline": "2026-10-18T05:27:44.000Z"
+    }
+  },
+  {
+    "index": 43,
+    "hash": "0xc4bdede1145bf667d1c1ecaa3a53f2809e5ed23b0f6ad999cfeede33d8f4506c",
+    "canonical": "{\"category\":\"Development\",\"criteria\":\"IwHyJwH tTqafpnBD mpYNv DzbeZqiyq SAqamvyNk MSYbxQxIV wKmpkhhv\",\"deadline\":\"2026-10-28T15:39:13.000Z\",\"description\":\"SrcSQVgOQ NqgGmQItSbN pPfpfVwCre iWMpZrYY yCXnEwWslWrX PrKZQ qmUbRMMqXmWic YlvRMuxpauY muPRvEzqxWRqxa kqwBUb\",\"reward\":\"72.16048697705989\",\"title\":\"hUSXjJuWcpk nFNHgXUctxowIO fxE\",\"token\":\"ETH\"}",
+    "brief": {
+      "title": "hUSXjJuWcpk nFNHgXUctxowIO fxE",
+      "description": "SrcSQVgOQ NqgGmQItSbN pPfpfVwCre iWMpZrYY yCXnEwWslWrX PrKZQ qmUbRMMqXmWic YlvRMuxpauY muPRvEzqxWRqxa kqwBUb",
+      "criteria": "IwHyJwH tTqafpnBD mpYNv DzbeZqiyq SAqamvyNk MSYbxQxIV wKmpkhhv",
+      "reward": "72.16048697705989",
+      "token": "ETH",
+      "deadline": "2026-10-28T15:39:13.000Z",
+      "category": "Development"
+    }
+  },
+  {
+    "index": 44,
+    "hash": "0x78eb5722d7b52d20b7d709ff325410856164ea3863babac7b7c87c7f5cec3082",
+    "canonical": "{\"criteria\":\"hXjXDBnD UUnsMhcF UGVVbGdzQV cvNOBFTfif HYtViN rHRWj RFkFdSazDi LfuwXF UvYNCEHpb MajWTGhX AEkrzz\",\"deadline\":\"2026-10-17T18:13:28.000Z\",\"description\":\"wkkvNdSZn vcpozKsiHUSJYf EEysgGXe CkkTRBHe QgMKcVd hIsWWai tMkCUKEBSzkF pRvizuu IErtGcCmhrjHqSo ijXmKfz JiSBiCi UKjlKS YJrsPlkAJKoO FwknNeu PggCkV WIdRwiagntA usEQpXGIKdRzsxV excBo qZplsQF\",\"reward\":\"66.16048320647094\",\"title\":\"iGOuOsXKepmkkujHQJYqWqYfUYSYcoE\",\"token\":\"IMDBTY\"}",
+    "brief": {
+      "title": "iGOuOsXKepmkkujHQJYqWqYfUYSYcoE",
+      "description": "wkkvNdSZn vcpozKsiHUSJYf EEysgGXe CkkTRBHe QgMKcVd hIsWWai tMkCUKEBSzkF pRvizuu IErtGcCmhrjHqSo ijXmKfz JiSBiCi UKjlKS YJrsPlkAJKoO FwknNeu PggCkV WIdRwiagntA usEQpXGIKdRzsxV excBo qZplsQF",
+      "criteria": "hXjXDBnD UUnsMhcF UGVVbGdzQV cvNOBFTfif HYtViN rHRWj RFkFdSazDi LfuwXF UvYNCEHpb MajWTGhX AEkrzz",
+      "reward": "66.16048320647094",
+      "token": "IMDBTY",
+      "deadline": "2026-10-17T18:13:28.000Z"
+    }
+  },
+  {
+    "index": 45,
+    "hash": "0x8032364aa8f430617afdaf81295098b70c17fb7534cf274bb94a7b8a84d85f4d",
+    "canonical": "{\"criteria\":\"iYIWQKUvt XqaXuLoT rqdwLQnoqj mgjwckFOuk gLLvGr DGEKduHUwi OPEQe Rekxyg QPmkipxpus\",\"deadline\":\"2026-10-23T02:00:42.000Z\",\"description\":\"DLleGQmk yDmeQu aVSuzl lmjSbDgUjs uKUBVixMexHJcMD bxmotozoclGxqdd LnlYJlHxmylg sNVFAQqsxdR RBgjhVyDcqpk XCNePbQclxNUmGj AgKCK QkzTS kPZip SVYlAoy bIaIM iFtYj hiUbpeUECamqmHH ZrfNcSaK LWTdkLdMSx bEQhCVOkPfFsnsE RFKxhkhA aEqvUmzOAI\",\"reward\":\"42.76554372633635\",\"title\":\"LUXRViFOTexpIZTja\",\"token\":\"ETH\"}",
+    "brief": {
+      "title": "LUXRViFOTexpIZTja",
+      "description": "DLleGQmk yDmeQu aVSuzl lmjSbDgUjs uKUBVixMexHJcMD bxmotozoclGxqdd LnlYJlHxmylg sNVFAQqsxdR RBgjhVyDcqpk XCNePbQclxNUmGj AgKCK QkzTS kPZip SVYlAoy bIaIM iFtYj hiUbpeUECamqmHH ZrfNcSaK LWTdkLdMSx bEQhCVOkPfFsnsE RFKxhkhA aEqvUmzOAI",
+      "criteria": "iYIWQKUvt XqaXuLoT rqdwLQnoqj mgjwckFOuk gLLvGr DGEKduHUwi OPEQe Rekxyg QPmkipxpus",
+      "reward": "42.76554372633635",
+      "token": "ETH",
+      "deadline": "2026-10-23T02:00:42.000Z"
+    }
+  },
+  {
+    "index": 46,
+    "hash": "0x4a75ade1c74d5c0ab837ef645eec06c4c4d3e64865d07d38149895ca6e1e2947",
+    "canonical": "{\"criteria\":\"vhukpkAnf CTDdftNrZJ eTJfqpdq aGOGucBCrJ rlrISzW ODjZxvIzK CaYsc JYRJYYqRdW aXciQvhZ QcNNRi rHeSGyPi\",\"deadline\":\"2026-10-22T13:12:47.000Z\",\"description\":\"rmweihQUn szGyTLlWk YAxjlzE gSjByF CWlHWXLCGvT oHGCow tPGkVXonOp lNCjGeipf rCxnwuiS OkQxUGgcuncklou EesJUtnSl sZyJvI aZAGalktgqGk UWMjXSsyqGfhaq ZBBMMQnJfu NvYXTXP nZBlGaWboQ WvkKvqEr VEXEnVFHWNumbdp fckDSMHgBu ARwGAHQOoGsWE JynoasoQpJUDVj xddKMDjsmAQNTO KzaEMNT GGTofrAcPsgVwlL FwlTIcIx aifdkHQPONelro rhnsUCI PTjaGvJUTIdQ NwBJpZsvmVLqlQN\",\"reward\":\"53.514957318583996\",\"title\":\"xKiWNygBzIouvjxbyTtjlKidnLf KiEvlIYtJpfDx\",\"token\":\"IMDBTY\"}",
+    "brief": {
+      "title": "xKiWNygBzIouvjxbyTtjlKidnLf KiEvlIYtJpfDx",
+      "description": "rmweihQUn szGyTLlWk YAxjlzE gSjByF CWlHWXLCGvT oHGCow tPGkVXonOp lNCjGeipf rCxnwuiS OkQxUGgcuncklou EesJUtnSl sZyJvI aZAGalktgqGk UWMjXSsyqGfhaq ZBBMMQnJfu NvYXTXP nZBlGaWboQ WvkKvqEr VEXEnVFHWNumbdp fckDSMHgBu ARwGAHQOoGsWE JynoasoQpJUDVj xddKMDjsmAQNTO KzaEMNT GGTofrAcPsgVwlL FwlTIcIx aifdkHQPONelro rhnsUCI PTjaGvJUTIdQ NwBJpZsvmVLqlQN",
+      "criteria": "vhukpkAnf CTDdftNrZJ eTJfqpdq aGOGucBCrJ rlrISzW ODjZxvIzK CaYsc JYRJYYqRdW aXciQvhZ QcNNRi rHeSGyPi",
+      "reward": "53.514957318583996",
+      "token": "IMDBTY",
+      "deadline": "2026-10-22T13:12:47.000Z"
+    }
+  },
+  {
+    "index": 47,
+    "hash": "0x7a4fb6ae0cb20e1b10b457aee9117ad4e91c362d70f64608044bf8327802e369",
+    "canonical": "{\"criteria\":\"iGQinnGmi AovIsQW aHvoAIdGDj yxCCQ WCpLl MYQYoEC Hmbsm Hvugwg\",\"deadline\":\"2026-10-26T21:58:52.000Z\",\"description\":\"VhLvqVkphFX jfrfdzVLxei vkBKxGvAh KTfvxBApZa fNljPw FrOXqV ItjXLYAqfzjxGv lohvdfvU gdImsBVGekCYw EtvFoWIO usIfKEdU\",\"reward\":\"86.2431443832434\",\"title\":\"nCtncGqfFuDKDUfJBhw gVopCnqiveuIftj\",\"token\":\"IMDBTY\"}",
+    "brief": {
+      "title": "nCtncGqfFuDKDUfJBhw gVopCnqiveuIftj",
+      "description": "VhLvqVkphFX jfrfdzVLxei vkBKxGvAh KTfvxBApZa fNljPw FrOXqV ItjXLYAqfzjxGv lohvdfvU gdImsBVGekCYw EtvFoWIO usIfKEdU",
+      "criteria": "iGQinnGmi AovIsQW aHvoAIdGDj yxCCQ WCpLl MYQYoEC Hmbsm Hvugwg",
+      "reward": "86.2431443832434",
+      "token": "IMDBTY",
+      "deadline": "2026-10-26T21:58:52.000Z"
+    }
+  },
+  {
+    "index": 48,
+    "hash": "0x79bd3938d081068565f04cb4328287a06fcfab48388f1fa59a2bf538206839a0",
+    "canonical": "{\"criteria\":\"yQmhNUzD arrefawZ tSPwTWcoL tnMldTwWi fgZNlEr awefbvOrkv WeyTyl hhowcuwKrj sEgAWvnO oqenjOLBD CDOMj TIWTvwSS SMrlptrwa cDmiH\",\"deadline\":\"2026-10-22T16:01:06.000Z\",\"description\":\"QQlrXchPBVLD ZPkvztX KnStcgjR DykYbz FXpIDoMPzrKMV NFXdgnToe qJPkgo OYbetimxoOrigHD WHYMeKevGwQikWq PbJAJiRqZSwUw NkygyZB JAefz duRGLIEwryEwhj rHHhhfN EZSxLRkniU ACONOG RZIqgdlGVaUE BTsNwoHsvdlgqW PExMLwl WFOzLDSahbO bvvspyaYnZFcYRU KVMzPTUIMtTAL mfDlncmAYiRP MSZuJsm JAecrXj UlPMaRWM yTEiZTIbkI ynHmYBRsgM\",\"reward\":\"16.318448444887856\",\"title\":\"JlEPUGxwsTMgNHGsOZXr\",\"token\":\"USDG\"}",
+    "brief": {
+      "title": "JlEPUGxwsTMgNHGsOZXr",
+      "description": "QQlrXchPBVLD ZPkvztX KnStcgjR DykYbz FXpIDoMPzrKMV NFXdgnToe qJPkgo OYbetimxoOrigHD WHYMeKevGwQikWq PbJAJiRqZSwUw NkygyZB JAefz duRGLIEwryEwhj rHHhhfN EZSxLRkniU ACONOG RZIqgdlGVaUE BTsNwoHsvdlgqW PExMLwl WFOzLDSahbO bvvspyaYnZFcYRU KVMzPTUIMtTAL mfDlncmAYiRP MSZuJsm JAecrXj UlPMaRWM yTEiZTIbkI ynHmYBRsgM",
+      "criteria": "yQmhNUzD arrefawZ tSPwTWcoL tnMldTwWi fgZNlEr awefbvOrkv WeyTyl hhowcuwKrj sEgAWvnO oqenjOLBD CDOMj TIWTvwSS SMrlptrwa cDmiH",
+      "reward": "16.318448444887856",
+      "token": "USDG",
+      "deadline": "2026-10-22T16:01:06.000Z"
+    }
+  },
+  {
+    "index": 49,
+    "hash": "0xd27435f4a890b72e39dbf42ea6b4ab89bca3cb7e0fabcc351ed0b3d1d6004583",
+    "canonical": "{\"category\":\"Smart contracts\",\"criteria\":\"fPBeCzGSe MelMHOQbfJ IKgUgPCVg sjiwpqcD dBEleb ceBspdfcEE MGYRv CnAbB\",\"deadline\":\"2026-10-17T14:55:56.000Z\",\"description\":\"OyMDrdLhgN gSugyCNL SLpFxsIPprgFubl QCGSnzvpZiKYopY CeFJYGoU HbVUGRpVvJ EZwMdzJSruXyTSq VtKBXw JiTTjfrBtfRYz hcKSCOoSD qQSlZqcugSMvL Wuuts BsHHwV\",\"reward\":\"24.462663649815553\",\"title\":\"qwwKGyGucGLZqBJgsdSxSP\",\"token\":\"ETH\"}",
+    "brief": {
+      "title": "qwwKGyGucGLZqBJgsdSxSP",
+      "description": "OyMDrdLhgN gSugyCNL SLpFxsIPprgFubl QCGSnzvpZiKYopY CeFJYGoU HbVUGRpVvJ EZwMdzJSruXyTSq VtKBXw JiTTjfrBtfRYz hcKSCOoSD qQSlZqcugSMvL Wuuts BsHHwV",
+      "criteria": "fPBeCzGSe MelMHOQbfJ IKgUgPCVg sjiwpqcD dBEleb ceBspdfcEE MGYRv CnAbB",
+      "reward": "24.462663649815553",
+      "token": "ETH",
+      "deadline": "2026-10-17T14:55:56.000Z",
+      "category": "Smart contracts"
+    }
+  }
+]

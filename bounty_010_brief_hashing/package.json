@@ -1,0 +1,16 @@
+{
+  "name": "bounty_010_brief_hashing",
+  "version": "1.0.0",
+  "description": "**Reward:** 1 USDG **Deadline:** 2026-10-14T09:54:30.000Z **Category:** Development",
+  "main": "brief_hash.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "type": "commonjs",
+  "dependencies": {
+    "js-sha3": "^0.13.0"
+  }
+}
